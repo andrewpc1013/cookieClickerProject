@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 169, 159);
+    font-style: italic;
+    font-size: 1.3em;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: none;
+    background-color: rgb(255, 169, 159);
+    border-top: solid 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.clicker-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cats-display {
+    font-size: 2.5em;
+}
+
+#cat-button {
+    width: 400px;
+}
+
+.shop-window {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    border-left: solid 3px;
+    align-items: center;
+    background-color: rgb(255, 229, 226);
+}
+
+#shop-title {
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+.shop-image {
+    height: 130px;
+    width: 130px;
+}
+
+.shop-item {
+    box-shadow: 0 2px 5px -2px black;
+    border: solid;
+    border-radius: 2%;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 375px;
+    flex: none;
+    background-color: white;
+}
+
+.shop-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shop-info {
+    flex: none;
+}
