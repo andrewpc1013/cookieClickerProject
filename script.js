@@ -186,3 +186,5 @@ function updateCostColor() {
         quantityDisplay.catLadyCost.style.color = "black";
     }
 }
+
+//ignore this
